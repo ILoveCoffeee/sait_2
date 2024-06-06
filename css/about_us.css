@@ -1,0 +1,577 @@
+.slider {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.company-about__content {
+    min-height: 393px;
+    background: #1b1b1b;
+    padding: 24px;
+    box-shadow: 0 1px 2px #0000002e;
+    border-radius: 8px;
+    width: calc(100% - 296px);
+}
+
+@media (max-width: 1199px) {
+    .company-about__content {
+        width: calc(100% - 250px)
+    }
+}
+
+@media (max-width: 991px) {
+    .company-about__content {
+        width: 100%;
+        max-width: 100%;
+        padding: 28px 10px
+    }
+}
+
+@media (max-width: 767px) {
+    .company-about__content {
+        padding: 16px;
+        min-height: 500px
+    }
+}
+
+.company-about__content .base-ui-input-row__label,
+.navmenu__submenu {
+    padding: 0
+}
+
+.terminal-mode .company-about__content {
+    width: 100%;
+    max-width: 100%;
+    padding: 28px 10px
+}
+
+.page-about {
+    max-width: 831px;
+    margin: 0 auto
+}
+
+.page-about .about-dns__title {
+    margin-bottom: 24px
+}
+
+.page-about .about-dns__top-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff
+}
+
+.page-about .about-dns__subtitle {
+    max-width: 692px;
+    max-height: 48px
+}
+
+.page-about .about-dns__top-subtitle {
+    font-size: 19px;
+    line-height: 26px;
+    color: #909090
+}
+
+.page-about .our-history {
+    background: url(/about/assets/bg-28ff4a73.svg) top center no-repeat;
+    background-size: 75%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+@media (max-width: 768px) {
+    .page-about .our-history {
+        height: 250px
+    }
+}
+
+.page-about .our-history__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff;
+    margin-bottom: 16px
+}
+
+.page-about .our-history__slider {
+    height: 217px;
+    display: flex;
+    align-items: center;
+    overflow: hidden
+}
+
+.page-about .our-history__slider .slider__btn_next,
+.page-about .our-history__slider .slider__btn_prev {
+    top: 45%
+}
+
+.page-about .our-history__slider_card {
+    height: 165px;
+    background: #4e4e4e;
+    box-shadow: 0 1px 2px #0000001a;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0
+}
+
+.page-about .our-history__slider_card:hover {
+    box-shadow: 0 13px 44px #0000001f
+}
+
+@media (max-width: 720px) {
+    .page-about .our-history__slider_card:hover {
+        box-shadow: 0 13px 20px #0000001a
+    }
+}
+
+@media (max-width: 1199px) {
+    .page-about .our-history__slider_card {
+        height: 165px
+    }
+}
+
+@media (max-width: 720px) {
+    .page-about .our-history__slider_card {
+        height: 165px
+    }
+}
+
+.page-about .our-history__slider_wrapper {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px
+}
+
+@media (max-width: 1199px) {
+    .page-about .our-history__slider_wrapper {
+        height: 70%
+    }
+}
+
+.page-about .our-history__slider_top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.page-about .our-history__slider_year {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff
+}
+
+.page-about .our-history__slider_bottom {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+
+@media (max-width: 720px) {
+    .page-about .our-history__slider {
+        height: 200px
+    }
+}
+
+.page-about .slider__btn_prev[disabled] {
+    pointer-events: none; 
+}
+
+.page-about .our-history__slider .slider__btn[disabled] {
+    display: none
+}
+
+.page-about .our-history__icon-size {
+    width: 28px;
+    height: 28px
+}
+
+.page-about .our-history .slider__slide-item {
+    overflow: unset
+}
+
+.page-about .dns-today {
+    margin-bottom: 41px
+}
+
+.page-about .dns-today__title {
+    margin-bottom: 16px
+}
+
+.page-about .dns-today__sm-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #808080
+}
+
+.page-about .dns-today__info {
+    width: 100%;
+    height: 149px;
+    background: linear-gradient(0deg, #808080 0%, #A9A9A9 100%);
+    box-shadow: 0 14px 44px rgba(120, 120, 120, 0.47);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.page-about .dns-today__inner-wrapper {
+    max-height: 85px;
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.page-about .dns-today__in-numbers {
+    max-width: 245px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.page-about .dns-today__in-numbers_with-skeleton {
+    justify-content: center;
+    align-items: unset
+}
+
+.page-about .dns-today__big-num {
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px
+}
+
+.page-about .dns-today__subtitle-info {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.page-about .info-for-everyone {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1em;
+    margin-bottom: 40px
+}
+
+.page-about .info-for-everyone__section_box {
+    max-height: 227px;
+    padding-left: 17px
+}
+
+.page-about .info-for-everyone__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333;
+    margin-bottom: 8px
+}
+
+.page-about .info-for-everyone__list ul {
+    padding-left: 25px
+}
+
+.page-about .info-for-everyone__list ul li {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 32px;
+    color: #808080;
+}
+
+.page-about .info-for-everyone__ul-list {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column
+}
+
+.page-about .info-for-everyone__li-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333
+}
+
+.page-about .size-staff {
+    margin-top: 40px
+}
+
+.page-about .icon-client span {
+    margin-left: 38px;
+    position: relative
+}
+
+.page-about .icon-client span:before {
+    content: "";
+    background-image: url(/about/assets/smile-ed772126.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -36px
+}
+
+.page-about .icon-partner span {
+    margin-left: 38px;
+    position: relative
+}
+
+.page-about .icon-partner span:before {
+    content: "";
+    background-image: url(/about/assets/case-ad3d35f8.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -36px
+}
+
+.page-about .icon-staff span {
+    margin-left: 38px;
+    position: relative
+}
+
+.page-about .icon-staff span:before {
+    content: "";
+    background-image: url(/about/assets/stars-9d780f43.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -36px
+}
+
+.page-about .dns-team {
+    width: 100%;
+    height: 153px;
+    background: #f7f7f7;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.page-about .dns-team__inner-wrapper {
+    max-height: 97px;
+    width: 100%;
+    padding: 0 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.page-about .dns-team__content {
+    max-width: 500px;
+    max-height: 97px
+}
+
+.page-about .dns-team__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 12px;
+    color: #333
+}
+
+.page-about .dns-team--text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4e4e4e
+}
+
+@media (max-width: 1199px) {
+    .page-about .dns-team__content {
+        max-width: 390px
+    }
+}
+
+@media (max-width: 720px) {
+    .page-about .about-dns {
+        max-height: 191px;
+        margin-bottom: 24px
+    }
+
+    .page-about .about-dns__title {
+        margin-bottom: 8px
+    }
+
+    .page-about .about-dns__top-title {
+        font-size: 22px;
+        line-height: 24px
+    }
+
+    .page-about .about-dns__subtitle {
+        max-height: 96px
+    }
+
+    .page-about .dns-today__title {
+        margin-bottom: 12px
+    }
+
+    .page-about .dns-today__sm-title {
+        font-size: 22px;
+        line-height: 29px
+    }
+
+    .page-about .dns-today__big-num {
+        font-size: 30px
+    }
+
+    .page-about .info-for-everyone {
+        width: 100%;
+        grid-template-columns: 100%;
+        justify-items: center
+    }
+
+    .page-about .info-for-everyone__section-box {
+        max-width: 450px
+    }
+
+    .page-about .info-for-everyone__section-box:not(:last-child) {
+        margin-bottom: 25px
+    }
+
+    .page-about .info-for-everyone__list ul {
+        padding-left: 22px;
+        list-style-type: none;
+    }
+
+    .page-about .size-staff {
+        margin: 0
+    }
+
+    .page-about .dns-team {
+        height: 220px
+    }
+
+    .page-about .dns-team__inner-wrapper {
+        flex-direction: column;
+        max-height: 100%;
+        padding: 16px;
+        height: 85%
+    }
+
+    .page-about .dns-team__title {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 8px
+    }
+
+    .page-about .dns-team__text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 16px
+    }
+}
+
+@media (max-width: 448px) {
+    .page-about .dns-team__inner-wrapper {
+        width: 100%
+    }
+
+    .page-about .dns-team__link {
+        width: 100%;
+        text-align: center
+    }
+}
+
+@media (max-width: 610px) {
+    .page-about .dns-today__inner-wrapper {
+        flex-direction: column;
+        padding: 16px;
+        align-items: baseline;
+        max-height: 100%
+    }
+
+    .page-about .dns-today__in-numbers {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+
+    .page-about .dns-today__in-numbers:not(:last-child) {
+        margin-bottom: 12px
+    }
+
+    .page-about .dns-today__big-num {
+        font-size: 24px;
+        line-height: 31px;
+        margin-right: 8px
+    }
+}
+
+@media (max-width: 377px) {
+    .page-about .about-dns__top-title {
+        font-size: 20px
+    }
+
+    .page-about .about-dns__top-subtitle {
+        font-size: 14px
+    }
+
+    .page-about .dns-team__inner-wrapper {
+        height: 100%
+    }
+}
+
+@media (max-width: 369px) {
+    .page-about .dns-today__big-num {
+        font-size: 20px
+    }
+
+    .page-about .dns-today__subtitle-info {
+        font-size: 15px
+    }
+}
+
+@media (max-width: 345px) {
+    .page-about .dns-today__big-num {
+        font-size: 20px
+    }
+
+    .page-about .dns-today__subtitle-info {
+        font-size: 13px
+    }
+}
+
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: rgba(255, 0, 0, 0.8); /* Полупрозрачный красный цвет */
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px; /* Совпадает с высотой круга */
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: none; /* Скрываем по умолчанию */
+}
